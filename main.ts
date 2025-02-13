@@ -51,7 +51,7 @@ basic.forever(function () {
     if (STOP >= 2) {
         停止()
         basic.showIcon(IconNames.Yes)
-    } else if (STOP < 2) {
+    } else if (STOP < 1) {
         if (pins.digitalReadPin(DigitalPin.P1) == 0 && pins.digitalReadPin(DigitalPin.P2) == 0) {
             前進()
         } else if (pins.digitalReadPin(DigitalPin.P1) == 1 && pins.digitalReadPin(DigitalPin.P2) == 0) {
