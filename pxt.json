@@ -1,0 +1,31 @@
+{
+    "name": "R4M基礎組-循跡數位1118",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "sensors": "github:gigotoys/gigo-block#b900a6ceabfc9757eb5b5c308f2d2a440dc58785",
+        "RoboticsWorkshop": "github:gigotoys/RoboticsWorkshop#29472b0ab2cd15daed229d117a41074e91079db2"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v6.0.22",
+        "tag": "v6.0.22",
+        "commits": "https://github.com/microsoft/pxt-microbit/commits/d4b2649410f09af27917a9a6d78e62e7e5fd2781",
+        "target": "7.0.57",
+        "pxt": "9.0.13",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
