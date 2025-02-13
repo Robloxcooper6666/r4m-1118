@@ -1,36 +1,36 @@
 function 左轉 () {
     RoboticsWorkshop.DDMmotor2(
     MotorChannel.MotorB,
-    0,
+    10,
     0
     )
     RoboticsWorkshop.DDMmotor2(
     MotorChannel.MotorC,
-    40,
+    50,
     0
     )
 }
 function 右轉 () {
     RoboticsWorkshop.DDMmotor2(
     MotorChannel.MotorB,
-    40,
+    50,
     1
     )
     RoboticsWorkshop.DDMmotor2(
     MotorChannel.MotorC,
-    0,
+    10,
     0
     )
 }
 function 前進 () {
     RoboticsWorkshop.DDMmotor2(
     MotorChannel.MotorB,
-    30,
+    100,
     1
     )
     RoboticsWorkshop.DDMmotor2(
     MotorChannel.MotorC,
-    30,
+    100,
     0
     )
 }
